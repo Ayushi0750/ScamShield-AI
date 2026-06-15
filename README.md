@@ -383,7 +383,6 @@ No warranty implied. Model accuracy is not guaranteed.
 [![GitHub](https://img.shields.io/badge/GitHub-Ayushi0750-181717?logo=github)](https://github.com/Ayushi0750)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayushi%20Tiwari-0A66C2?logo=linkedin)](https://www.linkedin.com/in/ayushi-tiwari-977602347)
 
----
 
 If this project helped you, consider giving it a star on [GitHub](https://github.com/Ayushi0750/ScamShield-AI).
 ```
