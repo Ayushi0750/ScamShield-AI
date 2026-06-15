@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Scam Shield AI",
+  "version": "1.0",
+  "description": "Detect job/internship scams using AI",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://localhost:8000/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

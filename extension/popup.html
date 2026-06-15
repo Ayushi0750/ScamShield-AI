@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scam Shield AI</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    h3 {
+      color: #333;
+      margin-top: 0;
+    }
+    #scanBtn {
+      width: 100%;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    #scanBtn:hover {
+      background: #1976D2;
+    }
+    #result {
+      margin-top: 15px;
+      padding: 10px;
+      background: white;
+      border-radius: 5px;
+      border-left: 4px solid #2196F3;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-size: 12px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h3>🛡️ Scam Shield AI</h3>
+  <p style="font-size: 12px; color: #666;">Analyze job postings for scam indicators</p>
+  
+  <button id="scanBtn">Scan Current Page</button>
+
+  <div id="result"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

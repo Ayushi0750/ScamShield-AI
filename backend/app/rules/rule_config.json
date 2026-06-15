@@ -1,0 +1,86 @@
+{
+  "PAYMENT_SCAM": {
+    "weight": 3,
+    "rules": [
+      "pay registration fee",
+      "pay processing fee",
+      "advance payment required",
+      "security deposit required",
+      "training fee",
+      "refund after payment",
+      "pay to get interview",
+      "purchase starter kit"
+    ]
+  },
+
+  "FAKE_INTERNSHIP": {
+    "weight": 3,
+    "rules": [
+      "guaranteed internship",
+      "no interview required",
+      "instant selection",
+      "100 percent selection",
+      "offer letter immediately",
+      "direct joining without interview"
+    ]
+  },
+
+  "URGENT_PRESSURE": {
+    "weight": 2,
+    "rules": [
+      "apply immediately",
+      "limited seats",
+      "last few hours",
+      "urgent hiring",
+      "within 24 hours",
+      "hurry up",
+      "fast registration"
+    ]
+  },
+
+  "FAKE_JOB_PROMISE": {
+    "weight": 3,
+    "rules": [
+      "earn 50000 per day",
+      "work from home guaranteed income",
+      "high salary without experience",
+      "unlimited income",
+      "earn lakhs monthly easily"
+    ]
+  },
+
+  "DATA_PHISHING": {
+    "weight": 3,
+    "rules": [
+      "share otp",
+      "send bank details",
+      "share aadhaar",
+      "pan card required",
+      "verify account details",
+      "credit card information"
+    ]
+  },
+
+  "CRYPTO_SCAM": {
+    "weight": 2,
+    "rules": [
+      "crypto investment",
+      "bitcoin trading job",
+      "guaranteed returns",
+      "double your money",
+      "investment opportunity"
+    ]
+  },
+
+  "GENUINE_INDICATORS": {
+    "weight": -2,
+    "rules": [
+      "official website",
+      "interview process",
+      "hr team",
+      "linkedin profile",
+      "structured interview",
+      "no fees required"
+    ]
+  }
+}

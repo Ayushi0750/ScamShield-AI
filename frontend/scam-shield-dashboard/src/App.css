@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0d1117;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-container {
+  min-height: 100vh;
+  padding: 50px 20px;
+  background:
+    radial-gradient(circle at top left,
+      #1f2937,
+      #0d1117);
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  color: #4ade80;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  color: #9ca3af;
+  font-size: 1.1rem;
+}
+
+.analyzer-card {
+  width: 75%;
+  margin: auto;
+  background: #161b22;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #30363d;
+  box-shadow:
+    0 0 30px rgba(74, 222, 128, 0.1);
+}
+
+.analyzer-card h2 {
+  margin-bottom: 20px;
+}
+
+.job-textarea {
+  width: 100%;
+  min-height: 220px;
+  background: #0d1117;
+  color: white;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.job-textarea:focus {
+  outline: none;
+  border-color: #4ade80;
+}
+
+.analyze-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  background: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.analyze-btn:hover {
+  background: #16a34a;
+}
+
+.result-card {
+  margin-top: 25px;
+  text-align: left;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.result-card h3,
+.result-card h4 {
+  color: #4ade80;
+  margin-bottom: 10px;
+}
+
+.result-card p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.result-card hr {
+  border: none;
+  border-top: 1px solid #30363d;
+  margin: 20px 0;
+}
+
+.result-card ul {
+  padding-left: 20px;
+}
+
+.result-card li {
+  margin-bottom: 10px;
+}
+
+.status-box {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 5px solid #4ade80;
+}
+
+.status-box h2 {
+  margin-bottom: 10px;
+}
+
+.error-card {
+  margin-top: 20px;
+  padding: 15px;
+  background: #7f1d1d;
+  border-radius: 10px;
+}
+
+pre {
+  background: #161b22;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-x: auto;
+  color: #facc15;
+}
+
+@media (max-width: 768px) {
+
+  .analyzer-card {
+    width: 95%;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,1 @@
+console.log("Scam Shield AI extension loaded");
